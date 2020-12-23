@@ -1,0 +1,26 @@
+
+@import "../../../assets/styles/theme.scss";
+
+.header{
+    color:$header-color;
+    text-align: $h-align;
+}
+
+.body-section{ 
+    p{
+        color:$p-color;
+       @include p-font-size;
+       text-align: $p-align;
+    }
+
+    button{
+        background-color: $button-color;
+        color:white;
+        font-size: 24px;
+        &:hover{
+            background-color: yellow;
+            color:black;
+            cursor:pointer;
+        }
+    }
+     }
