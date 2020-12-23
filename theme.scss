@@ -1,0 +1,16 @@
+
+
+
+$header-color:blue;
+$h-align:center;
+$p-color:red;
+$p-font-size:50px;
+$p-align:center;
+$button-color:rgb(127, 149, 247);
+
+@mixin p-font-size {
+
+    font-size: $p-font-size;
+    
+}
+
